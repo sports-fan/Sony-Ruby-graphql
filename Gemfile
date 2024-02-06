@@ -46,4 +46,7 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
 gem 'graphiql-rails', '1.7.0', group: :development
+
+gem 'bcrypt', '~> 3.1.13'
